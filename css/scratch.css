@@ -1,0 +1,140 @@
+/* General Page Styling */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to bottom right, #fff0f5, #f0f8ff);
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  /* Header */
+  .header {
+    background-color: #ffe6f2;
+    text-align: center;
+    padding: 40px 20px 20px;
+    border-bottom: 3px solid #f3a6cd;
+  }
+  
+  .header h1 {
+    font-size: 36px;
+    color: #312f30;
+  }
+  
+  .header p {
+    font-size: 18px;
+    color: #141313;
+  }
+  
+  /* Navigation */
+  .nav {
+    text-align: center;
+    background-color: #fff0f5;
+    padding: 15px;
+    border-bottom: 2px solid #ffcce6;
+  }
+  
+  .nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #f09ed5;
+    font-weight: 500;
+  }
+  
+  .nav a:hover {
+    color: #efb6d3;
+    text-decoration: underline;
+  }
+  
+  /* Section Titles */
+  h2 {
+    color: #171617;
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  /* Centered List Section */
+  .centered-list {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    padding: 20px;
+    align-items: center;
+  }
+  .centered-list {
+    text-align: center;
+    padding: 30px 0;
+  }
+  
+  .list-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .list-wrapper ol {
+    text-align: left;
+  }
+  
+  
+  /* Image Section */
+  .image-section {
+    text-align: center;
+    padding: 30px;
+  }
+  
+  .image-section img {
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    max-width: 90%;
+  }
+  
+  /* Video Section */
+  .video-section {
+    text-align: center;
+    padding: 30px;
+  }
+  
+  /* Joke App Button Section */
+  .joke-section {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .joke-link {
+    display: inline-block;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .joke-link:hover {
+    background-color: #c8d1da;
+  }
+  
+  /* Anchor Scroll Button */
+  .scroll-button {
+    display: inline-block;
+    background-color: #ff99cc;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .scroll-button:hover {
+    background-color: #ff66a3;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8faff;
+    border-top: 2px solid #d9e6f2;
+  }
+  
